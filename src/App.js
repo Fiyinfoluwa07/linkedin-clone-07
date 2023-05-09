@@ -1,11 +1,17 @@
-//You, seconds ago| 2 authors (Olufemi Alabi and others)
-import React from 'react';    //You, seconds ago * Uncommitted changes
+import React from 'react';  
 import './App.css';
+import Header from './Header';
 
 function App() {
   return(
-    <div className = "app">
-    <h1>Lets build a linkedIn CLONE</h1>    
+    <div className= "app">
+    {/* Header */}   
+    <Header />
+
+    {/* App Body */}
+      {/* Sidebar */}
+      {/* Feed */}
+      {/* Widgets */}
     </div>
   );
 }
